@@ -60,7 +60,14 @@ input {
     color: hsl(183, 100%, 15%);
     font-weight: bolder;
     font-family: 'Space Mono', monospace;
+    /* display: none; */
 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .bill-input {
